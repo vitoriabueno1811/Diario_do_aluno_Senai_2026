@@ -1,0 +1,1 @@
+# Diario_do_aluno_Senai_2026
