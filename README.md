@@ -8,7 +8,7 @@
 |-|-|
 |[Draw.io](https://app.diagrams.net/)|Diagramas de Caso de Uso|Wireframes|
 |[Canva](https://www.canva.com/)|Site|Apresentação de Slides|
-|Microsoft Excel|Planilhas|
-|Microsoft Word|Projeto|
+|Microsoft Excel|Planilhas|Tabelas|
+|Microsoft Word|Projeto|Documento de Requisitos|
 
 
