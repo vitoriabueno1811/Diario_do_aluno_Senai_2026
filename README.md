@@ -1,5 +1,5 @@
 # Diario_do_aluno_Senai_2026
-## Realização de um projeto educacional com base em pesquisa de campo dos alunos
+## Realização de um projeto educacional com intuito de melhorias escolares
 
 ## Site oficial no Canva
 [DiárioDoAlunoSESI](https://beatrizalvesportfolio.my.canva.site/di-rio-do-alunosesi)
