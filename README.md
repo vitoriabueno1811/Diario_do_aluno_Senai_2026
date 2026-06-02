@@ -1,5 +1,5 @@
 # SENAI | LER project
-## Realização de um projeto educacional com intuito de melhorias escolares
+## 
 
 ## Site teste no Canva
 [DiárioDoAlunoSESI](https://beatrizalvesportfolio.my.canva.site/di-rio-do-alunosesi)
