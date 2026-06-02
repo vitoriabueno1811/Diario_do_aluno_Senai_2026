@@ -1,4 +1,4 @@
-# Diario_do_aluno_Senai_2026
+# SENAI | LER project
 ## Realização de um projeto educacional com intuito de melhorias escolares
 
 ## Site teste no Canva
