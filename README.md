@@ -1,8 +1,11 @@
 # Diario_do_aluno_Senai_2026
 ## Realização de um projeto educacional com intuito de melhorias escolares
 
-## Site oficial no Canva
+## Site teste no Canva
 [DiárioDoAlunoSESI](https://beatrizalvesportfolio.my.canva.site/di-rio-do-alunosesi)
+
+## Site atualizado
+[DiárioDoAlunoSESI](https://versed-sesi-connect-hub.base44.app/)
 ## Tecnologias utilizadas
 |Tecnologia|Descrição|
 |-|-|
