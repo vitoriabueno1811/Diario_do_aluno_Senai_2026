@@ -1,5 +1,4 @@
 # SENAI | LER project
-## 
 
 ## Site teste no Canva
 [DiárioDoAlunoSESI](https://beatrizalvesportfolio.my.canva.site/di-rio-do-alunosesi)
