@@ -118,6 +118,10 @@ app.get('/api/avisos', (req, res) => {
     const db = lerDados();
     res.json(db.avisos);
 });
+app.get('/api/avisos', (req, res) => {
+    const db = postarDados();
+    res.json(db.avisos);
+});
 
 app.listen(PORT, () => {
     console.log(`Servidor do Diário do Aluno rodando em http://localhost:${PORT}`);
