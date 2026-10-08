@@ -54,6 +54,9 @@
 ```listar avisos ```
 ![GET](/2°%20SEM/PBE1/prints/listarAvisos.png)
 
+```listar desempenho geral do aluno``` 
+![GET](/2°%20SEM/PBE1/prints/listarDesempenho.png)
+
 # Código SQL (Banco de Dados) 
 
 ```
