@@ -31,11 +31,11 @@
 
 ## Funções (2° semestre)
 #### 08/10/2026
-- *Ana Beatriz Alves de Lima :* Back-End, README.md e organização das pastas
-- *Breno Frazão Callegari :* Back-End
-- *Letícia Aparecida Pinto de Souza :* DER
-- *Sara de Paula Souza :* Site do projeto
-- *Vitória Bueno da Silva :* Banco de dados
+- *Ana Beatriz Alves de Lima :* Back-End, README.md e organização do repositório;
+- *Breno Frazão Callegari :* Back-End;
+- *Letícia Aparecida Pinto de Souza :* DER;
+- *Sara de Paula Souza :* Site do projeto;
+- *Vitória Bueno da Silva :* Banco de dados.
 
 
 # Prints e testes (pendentes) no Thunder Client (Back-End)
