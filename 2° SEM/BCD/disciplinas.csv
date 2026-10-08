@@ -1,5 +1,4 @@
-|disciplinas|
-|id|nome|descricao|
-|-|-|-|
-|1|Lingua Portuguesa|Aula de Lingua Portugesa|
-|2|Matematica|Aula de Matematica|
+
+id,nome,descricao,
+1,Lingua Portuguesa,Aula de Lingua Portugesa,
+2,Matematica,Aula de Matematica,
