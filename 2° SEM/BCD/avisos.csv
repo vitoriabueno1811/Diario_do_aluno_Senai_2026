@@ -1,5 +1,3 @@
-|Avisos|
-|id|id_professor|id_turma|titulo|tipo|mensagem|data_mensagem|
-|-|-|-|-|-|-|-|
-|1|1|2|Semana de Provas do 2Bimestre|Importante|As provas serao realizadas entre 02 e 06 de Junho| 28 de maio de 2026|
-|2|2|3|Reuniao de Pais e Mestres|Importante|A reuniao sera no dia 20 de Junho| as 19h| nas salas de aulas|
+id,id_professor,id_turma,titulo,tipo,mensagem,data_mensagem
+1,1,2,Semana de Provas do 2Bimestre,Importante,As provas serao realizadas entre 02 e 06 de Junho,28 de maio de 2026
+2,2,3,Reuniao de Pais e Mestres,Importante,A reuniao sera no dia 20 de Junho as 19h nas salas de aulas,20 de junho de 2026
