@@ -31,7 +31,7 @@
 
 ## Funções (2° semestre)
 #### 08/10/2026
-- *Ana Beatriz Alves de Lima :* Back-End, README.md....
+- *Ana Beatriz Alves de Lima :* Back-End, README.md e organização das pastas
 - *Breno Frazão Callegari :* Back-End
 - *Letícia Aparecida Pinto de Souza :* DER
 - *Sara de Paula Souza :* Site do projeto
