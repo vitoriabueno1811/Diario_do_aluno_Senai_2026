@@ -9,12 +9,12 @@ app.use(cors());
 app.use(express.json());
 
 const lerDados = () => {
-    const dadosRaw = fs.readFileSync('./dados.json', 'utf-8');
+    const dadosRaw = fs.readFileSync('./dados.json');
     return JSON.parse(dadosRaw);
 };
 
 const salvarDados = (db) => {
-    fs.writeFileSync('./dados.json', JSON.stringify(db, null, 2));
+    fs.writeFileSync('./dados.json');
 };
 
 app.post('/api/login', (req, res) => {
@@ -106,10 +106,8 @@ app.delete('/api/provas/:id', (req, res) => {
             mensagem: "Prova não encontrada."
         });
     }
-
     db.provas.splice(indice, 1);
     salvarDados(db);
-
     res.json({
         mensagem: "Prova excluída com sucesso."
     });

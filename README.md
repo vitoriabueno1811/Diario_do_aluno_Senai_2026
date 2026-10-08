@@ -4,23 +4,40 @@
 [DiárioDoAlunoSESI](https://beatrizalvesportfolio.my.canva.site/di-rio-do-alunosesi)
 
 ## Site atualizado
-[DiárioDoAlunoSESI](https://versed-sesi-connect-hub.base44.app/)
-## Tecnologias utilizadas
+[DiárioDoAlunoSESI](https://versed-sesi-connect-hub.base44.app/)  
+
+## Tecnologias utilizadas 1/2° semestre
 |Tecnologia|Descrição|
 |-|-|
+``` 1° semestre ```
 |[Draw.io](https://app.diagrams.net/)|Diagramas de Caso de Uso|Wireframes|
 |[Canva](https://www.canva.com/)|Site|Apresentação de Slides|
 |Microsoft Excel|Planilhas|Tabelas|
-|Microsoft Word|Projeto|Documento de Requisitos|
+|Microsoft Word|Projeto/Documento de Requisitos|
+``` 2° semestre ```
+|VS Code|Banco de Dados / Back-End / LIMA / Site em HTML|
+|JSON| Formato em texto para Banco de Dados|
+|CSV| Formato de tabela para Banco de Dados|
+|HTML| Define a estrutura de um site na internet| 
+|CSS| É a estilização do código -> index.html|
+|Java Script| Linguagem de programação interpretada|
+|MySQL| Tecnologia para Banco de Dados|
+|XAMPP| Execução em SQL e Banco de Dados|
+|Node JS| Executar o Java Script fora do navegador|
+|Draw.io| MER & DER|
+|Thunder Client| Testes do servidor no próprio VS Code|
 
-### Funções (2° semestre)
-##### 08/10/2026
-- Ana Beatriz : Back-End, README.md....
-- Breno : Back-End
-- Letícia : DER
-- Sara : Site do projeto
-- Vitória : Banco de dados
 
+
+## Funções (2° semestre)
+#### 08/10/2026
+- *Ana Beatriz Alves de Lima :* Back-End, README.md....
+- *Breno Frazão Callegari :* Back-End
+- *Letícia Aparecida Pinto de Souza :* DER
+- *Sara de Paula Souza :* Site do projeto
+- *Vitória Bueno da Silva :* Banco de dados
+
+```
 # Código SQL (Banco de Dados) 
 
 ## Script SQL DDL
@@ -97,5 +114,4 @@ ALTER TABLE horarios_aulas
     ADD CONSTRAINT fk_horarios_turma FOREIGN KEY (id_turma) REFERENCES turmas(id_turma) ON DELETE CASCADE,
     ADD CONSTRAINT fk_horarios_disciplina FOREIGN KEY (id_disciplina) REFERENCES disciplinas(id_disciplina) ON DELETE CASCADE;
 USE estoque_loja;
-...
 ```
