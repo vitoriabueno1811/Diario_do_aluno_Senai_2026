@@ -115,3 +115,42 @@ ALTER TABLE horarios_aulas
     ADD CONSTRAINT fk_horarios_disciplina FOREIGN KEY (id_disciplina) REFERENCES disciplinas(id_disciplina) ON DELETE CASCADE;
 USE estoque_loja;
 ```
+
+## Dicionário de Dados
+---
+|Dicionario de Dados|
+|Entidade|Atributo|Tipo|Tamanho|Descricao|
+|-|-|-|-|-|
+|usuarios|id|int|11|Chave primaria do Usuario|
+|usuarios|nome|varchar|100|Nome do Usuario|
+|usuarios|email|varchar|100|email do Usuario|
+|usuarios|senha|varchar|25|senha do Usuario|
+|usuarios|tipo|varchar|20|categoria do Usuario|
+|avisos|id|int|11|Chave primaria de avisos|
+|avisos|id_professor|int|11|Chave estrangeira referente a avisos|
+|avisos|id_turma|int|11|Cahve estrangeira referente a avisos|
+|avisos|titulo|varchar|150|titulo da mensagem do aviso|
+|avisos|tipo|varchar|20|tipo de mensagem|
+|avisos|mensagem|varchar|500|mensagem inserida|
+|avisos|data_mensagem|DATE|--|data da mensagem|
+|horario_aulas|id|int|11|Chave primaria de horario_aulas|
+|horario_aulas|id_turma|int|11|Chave estrangeira referente a horario_aulas|
+|horario_aulas|id_disciplina|int|11|Chave estrangeira referente a horario_aulas|
+|horario_aulas|dia_da_semana|varchar|50|dia da semana|
+|horario_aulas|cronograma|decimal|10.2|horario das aulas|
+|disciplinas|id|int|11|Chave primaria da disciplinas|
+|disciplinas|nome|varchar|100|Nome da disciplinas|
+|disciplinas|descricao|varchar|200|descricao das disciplinas|
+|Turmas|id|int|11|Chave primaria da Turmas|
+|Turmas|nome|varchar|50|Nome da turma|
+|Turmas|ano_letivo|varchar|100|ano letivo da turma|
+|Frenquencias|id|int|11|Chave primaria da Frenquencias|
+|Frenquencias|id_aluno|int|11|Chave estrangeira referente a Frenquencias|
+|Frenquencias|id_disciplina|int|11|Chave estrangeira referente a Frenquencias|
+|Frenquencias|data_aula|DATE| -- |Data da Aula|
+|Notas|id|int|11|Chave primaria das Notas|
+|Notas|id_aluno|int|11|Chave estrangeira referente a Notas|
+|Notas|id_disciplina|int|11|Chave estrangeira referente a Notas|
+|Notas|nota_boletim|Decimal|10.2|Nota do Boletim|
+|Notas|nota_avalia_sesi|Decimal|10.2| Nota do Avalia Sesi|
+|Notas|nota_rubrica|Decimal|10.2|Nota da Rubrica|
