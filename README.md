@@ -54,9 +54,9 @@
 ```listar avisos ```
 ![GET](/2°%20SEM/PBE1/prints/listarAvisos.png)
 
-```
 # Código SQL (Banco de Dados) 
 
+```
 ## Script SQL DDL
 
 ```CREATE SCHEMA IF NOT EXISTS Diario_Aluno_SESI;
