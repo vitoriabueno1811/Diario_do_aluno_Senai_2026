@@ -13,6 +13,14 @@
 |Microsoft Excel|Planilhas|Tabelas|
 |Microsoft Word|Projeto|Documento de Requisitos|
 
+### Funções (2° semestre)
+##### 08/10/2026
+- Ana Beatriz : Back-End, README.md....
+- Breno : Back-End
+- Letícia : DER
+- Sara : Site do projeto
+- Vitória : Banco de dados
+
 # Código SQL (Banco de Dados) 
 
 ## Script SQL DDL
