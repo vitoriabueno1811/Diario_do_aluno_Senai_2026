@@ -37,6 +37,23 @@
 - *Sara de Paula Souza :* Site do projeto
 - *Vitória Bueno da Silva :* Banco de dados
 
+
+## Prints e testes (pendentes) no Thunder Client (Back-End)
+``` listar provas marcadas ```
+![GET](/2°%20SEM/PBE1/prints/listarProvas.png)
+
+```postar nova prova ```
+![POST](/2°%20SEM/PBE1/prints/postProvas.png)
+
+``` listar novas provas ```
+![GET](/2°%20SEM/PBE1/prints/listarNovaProva.png)
+
+``` deletar provas ```
+![DEL](/2°%20SEM/PBE1/prints/DELprova.png)
+
+```listar avisos ```
+![GET](/2°%20SEM/PBE1/prints/listarAvisos.png)
+
 ```
 # Código SQL (Banco de Dados) 
 

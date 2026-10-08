@@ -7,29 +7,94 @@
     }
   ],
   "desempenho": {
-    "media_geral": 8.9,
     "frequencia_total": "80%",
     "materias": [
-      { "nome": "Educação Física", "nota": 10.0 },
-      { "nome": "Geografia", "nota": 10.0 },
-      { "nome": "Sociologia", "nota": 9.9 },
-      { "nome": "Português", "nota": 9.5 },
-      { "nome": "Matemática", "nota": 9.2 },
-      { "nome": "Física", "nota": 9.0 },
-      { "nome": "Arte", "nota": 9.0 },
-      { "nome": "História", "nota": 8.8 },
-      { "nome": "Inglês", "nota": 8.5 },
-      { "nome": "Química", "nota": 7.9 }
+      {
+        "nome": "Educação Física",
+        "nota": 10
+      },
+      {
+        "nome": "Geografia",
+        "nota": 10
+      },
+      {
+        "nome": "Sociologia",
+        "nota": 9.9
+      },
+      {
+        "nome": "Português",
+        "nota": 9.5
+      },
+      {
+        "nome": "Matemática",
+        "nota": 9.2
+      },
+      {
+        "nome": "Física",
+        "nota": 9
+      },
+      {
+        "nome": "Arte",
+        "nota": 9
+      },
+      {
+        "nome": "História",
+        "nota": 8.8
+      },
+      {
+        "nome": "Inglês",
+        "nota": 8.5
+      },
+      {
+        "nome": "Química",
+        "nota": 7.9
+      }
     ]
   },
   "provas": [
-    { "id": 1, "materia": "Português", "data": "02/06", "horario": "08:30", "conteudo": "Romantismo, interpretação de texto e gramática" },
-    { "id": 2, "materia": "Física", "data": "03/06", "horario": "07:30", "conteudo": "Termodinâmica e óptica" },
-    { "id": 3, "materia": "Química", "data": "04/06", "horario": "07:30", "conteudo": "Reações orgânicas e estequiometria" },
-    { "id": 4, "materia": "História", "data": "05/06", "horario": "10:40", "conteudo": "Era Vargas e Segunda Guerra Mundial" }
+    {
+      "id": 1,
+      "materia": "Português",
+      "data": "02/06",
+      "horario": "08:30",
+      "conteudo": "Romantismo, interpretação de texto e gramática"
+    },
+    {
+      "id": 3,
+      "materia": "Química",
+      "data": "04/06",
+      "horario": "07:30",
+      "conteudo": "Reações orgânicas e estequiometria"
+    },
+    {
+      "id": 4,
+      "materia": "História",
+      "data": "05/06",
+      "horario": "10:40",
+      "conteudo": "Era Vargas e Segunda Guerra Mundial"
+    },
+    {
+      "id": 5,
+      "materia": "Sociologia",
+      "data": "09/06",
+      "horario": "09:50",
+      "conteudo": "Estados Comtemporâneos"
+    }
   ],
   "avisos": [
-    { "id": 1, "titulo": "Semana de Provas do 2º Bimestre", "tipo": "Importante", "texto": "As provas serão realizadas entre 02 e 06 de junho.", "data": "28 de maio, 2026" },
-    { "id": 2, "titulo": "Reunião de Pais e Mestres", "tipo": "Importante", "texto": "A reunião será no dia 20 de junho, às 19h, no auditório.", "data": "28 de maio, 2026" }
+    {
+      "id": 1,
+      "titulo": "Semana de Provas do 2º Bimestre",
+      "tipo": "Importante",
+      "texto": "As provas serão realizadas entre 02 e 06 de junho.",
+      "data": "28 de maio, 2026"
+    },
+    {
+      "id": 2,
+      "titulo": "Reunião de Pais e Mestres",
+      "tipo": "Importante",
+      "texto": "A reunião será no dia 20 de junho, às 19h, no auditório.",
+      "data": "28 de maio, 2026"
+    }
   ]
 }

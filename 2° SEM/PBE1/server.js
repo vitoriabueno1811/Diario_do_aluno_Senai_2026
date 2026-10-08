@@ -14,8 +14,9 @@ const lerDados = () => {
 };
 
 const salvarDados = (db) => {
-    fs.writeFileSync('./dados.json');
+    fs.writeFileSync('./dados.json', JSON.stringify(db, null, 2)); 
 };
+
 
 app.post('/api/login', (req, res) => {
     const { email, senha } = req.body;
