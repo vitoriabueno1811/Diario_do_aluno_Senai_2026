@@ -38,7 +38,7 @@
 - *Vitória Bueno da Silva :* Banco de dados
 
 
-## Prints e testes (pendentes) no Thunder Client (Back-End)
+# Prints e testes (pendentes) no Thunder Client (Back-End)
 ``` listar provas marcadas ```
 ![GET](/2°%20SEM/PBE1/prints/listarProvas.png)
 
