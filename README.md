@@ -116,7 +116,7 @@ ALTER TABLE horarios_aulas
 USE estoque_loja;
 ```
 
-## Dicionário de Dados
+## Dicionário de Dados e tabelas em CSV
 ---
 |Dicionario de Dados|
 |Entidade|Atributo|Tipo|Tamanho|Descricao|
@@ -154,3 +154,4 @@ USE estoque_loja;
 |Notas|nota_boletim|Decimal|10.2|Nota do Boletim|
 |Notas|nota_avalia_sesi|Decimal|10.2| Nota do Avalia Sesi|
 |Notas|nota_rubrica|Decimal|10.2|Nota da Rubrica|
+---
