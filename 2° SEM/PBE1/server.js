@@ -389,7 +389,7 @@ app.delete('/api/provas/:id', (req, res) => {
 });
 app.get('/api/avisos', (req, res) => {
     const db = lerDados();
-    res.json(db.avisos);
+    res.json(db.avisos); 
 });
 app.listen(PORT, () => {
     console.log(
