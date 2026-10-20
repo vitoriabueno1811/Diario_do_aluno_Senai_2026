@@ -38,7 +38,7 @@
 - *Vitória Bueno da Silva :* Banco de dados.
 
 
-# Prints e testes (pendentes) no Thunder Client (Back-End)
+# Prints e testes no Thunder Client (Back-End)
 ``` listar provas marcadas ```
 ![GET](/2°%20SEM/PBE1/prints/listarProvas.png)
 
@@ -72,8 +72,26 @@
 ``` postar mesmo usuário duas vezes ```
 ![POST](/2°%20SEM/PBE1/prints/postarMesmoUsuario.png)
 
+``` deletar usuários ```
+![DEL](/2°%20SEM/PBE1/prints/DELusuario.png)
+
 ``` listar todos usuários ``` 
 ![GET](/2°%20SEM/PBE1/prints/listarTodosUsuarios.png)
+
+``` listar matérias ``` 
+![GET](/2°%20SEM/PBE1/prints/listarMaterias.png)
+
+``` postar nova matéria ```
+![POST](/2°%20SEM/PBE1/prints/postarMateriaNova.png)
+
+``` postar matéria já cadastrada ```
+![POST](/2°%20SEM/PBE1/prints/postarMateriacadastrda.png)
+
+``` put matéria ```
+![PUT](/2°%20SEM/PBE1/prints/mudarMateriaPUT.png)
+
+``` deletar matérias ```
+![DEL](/2°%20SEM/PBE1/prints/deletarMateria.png)
 
 
 
