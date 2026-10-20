@@ -51,11 +51,32 @@
 ``` deletar provas ```
 ![DEL](/2°%20SEM/PBE1/prints/DELprova.png)
 
+``` mudar provas ```
+![PUT](/2°%20SEM/PBE1/prints/mudarProvasPUT.png)
+
 ```listar avisos ```
 ![GET](/2°%20SEM/PBE1/prints/listarAvisos.png)
 
 ```listar desempenho geral do aluno``` 
 ![GET](/2°%20SEM/PBE1/prints/listarDesempenho.png)
+
+``` listar usuários ```
+![GET](/2°%20SEM/PBE1/prints/listarUsuarios.png)
+
+``` postar novo usuário ```
+![POST](/2°%20SEM/PBE1/prints/postarNovoUsuario.png)
+
+``` postar usuário de forma ilegível ```
+![POST](/2°%20SEM/PBE1/prints/postarUsuarioErrado.png)
+
+``` postar mesmo usuário duas vezes ```
+![POST](/2°%20SEM/PBE1/prints/postarMesmoUsuario.png)
+
+``` listar todos usuários ``` 
+![GET](/2°%20SEM/PBE1/prints/listarTodosUsuarios.png)
+
+
+
 
 # Código SQL (Banco de Dados) 
 
