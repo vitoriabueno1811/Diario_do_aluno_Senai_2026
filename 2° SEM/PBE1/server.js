@@ -2,9 +2,118 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
+const mysql = require('mysql2');
 
 const app = express();
-const PORT = 3000;
+
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+const db = mysql.createConnection({
+    host: "localhost", 
+    user: "root",
+    password: "",
+    database: "Diario_Aluno_SESI"
+})
+db.connect((erro)=>{
+    if(erro){
+        console.error("Erro ao conectar:", erro)
+    }else{
+        console.log("Conectado ao DB")
+    }
+})
+const mostrarUsuarios = (req, res) => {
+    const sql = "SELECT id_usuario, nome, email, tipo FROM usuarios"
+
+    db.query(sql, (erro, resultado) => {
+        if(erro){
+            return res.status(500).json({erro: "Erro ao consultar o BD"})
+        }
+        res.json(resultado)
+    })
+}
+const mostrarDisciplinas = (req, res) => {
+    const sql = "SELECT id_disciplina, nome, descricao FROM disciplinas"
+
+    db.query(sql, (erro, resultado) => {
+        if(erro){
+            return res.status(500).json({erro: "Erro ao consultar o BD"})
+        }
+        res.json(resultado)
+    })
+}
+const mostrarTurmas = (req, res) => {
+    const sql = "SELECT id_turma, nome_turma, ano_letivo FROM turmas"
+    db.query(sql, (erro, resultado) => {
+        if(erro){
+            return res.status(500).json({erro: "Erro ao consultar o BD"})
+        }
+        res.json(resultado)
+    })
+}
+const mostrarHorarios = (req, res) => {
+    const sql = "SELECT id_horario, id_turma, id_disciplina, dia_da_semana, cronograma FROM horarios_aulas"
+    db.query(sql, (erro, resultado) => {
+        if(erro){
+            return res.status(500).json({erro: "Erro ao consultar o BD"})
+        }
+        res.json(resultado)
+    })
+}
+const mostrarNotas = (req, res) => {
+    const sql = "SELECT id_notas, id_aluno, id_disciplina, nota_boletim, nota_avalia_sesi, nota_rubrica FROM notas"
+    db.query(sql, (erro, resultado) => {
+        if(erro){
+            return res.status(500).json({erro: "Erro ao consultar o BD"})
+        }
+        res.json(resultado)
+    })
+}
+const mostrarFrequencia = (req, res) => {
+    const sql = "SELECT id_frequencia, id_aluno, id_disciplina, data_aula FROM frequencias"
+
+    db.query(sql, (erro, resultado) => {
+        if(erro){
+            return res.status(500).json({erro: "Erro ao consultar o BD"})
+        }
+        res.json(resultado)
+    })
+}
+const mostrarAvisos = (req, res) => {
+    const sql = "SELECT id_avisos, id_professor, id_turma, titulo, tipo, mensagem, data_mensagem FROM avisos"
+    db.query(sql, (erro, resultado) => {
+        if(erro){
+            return res.status(500).json({erro: "Erro ao consultar o BD"})
+        }
+        res.json(resultado)
+    })
+}
+app.get('/api/usuarios', mostrarUsuarios);
+app.get('/api/disciplinas', mostrarDisciplinas);
+app.get('/api/turmas', mostrarTurmas);
+app.get('/api/horarios', mostrarHorarios);
+app.get('/api/notas', mostrarNotas);
+app.get('/api/frequencias', mostrarFrequencia);
+app.get('/api/avisos', mostrarAvisos);
+
+app.post('/api/usuarios', (req, res) => {
+    const { nome, email, senha, tipo } = req.body;
+
+    const sql = "INSERT INTO usuarios (nome, email, senha, tipo) VALUES (?, ?, ?, ?)";
+
+    db.query(sql, [nome, email, senha, tipo], (erro, resultado) => {
+        if (erro) {
+            return res.status(500).json({ erro: "Erro ao cadastrar usuário" });
+        }
+
+        res.status(201).json({
+            mensagem: "Usuário cadastrado com sucesso!",
+            id: resultado.insertId
+        });
+    });
+});
 
 app.use(cors());
 app.use(express.json());
@@ -33,7 +142,7 @@ app.get('/api/usuarios', (req, res) => {
 
     res.json(usuarios);
 });
-app.get('/api/usuarios', (req, res) => {
+app.get('/api/usuarios/:nome', (req, res) => {
     const db = lerDados();
     const nome = req.params.nome;
 
@@ -90,7 +199,7 @@ app.post('/api/usuarios', (req, res) => {
         }
     });
 });
-app.put('/api/usuarios', (req, res) => {
+app.put('/api/usuarios/:nome', (req, res) => {
     const db = lerDados();
     const nomeAtual = req.params.nome;
 
@@ -129,7 +238,7 @@ app.put('/api/usuarios', (req, res) => {
             mensagem: 'Informe uma senha válida.'
         });
     }
-    const novoEmail = email?.trim() || emailAtual;
+const novoEmail = email?.trim() || usuarioAtual.email;
     const emailEmUso = db.usuarios.some(
         (u, i) =>
             i !== indice &&
@@ -156,7 +265,7 @@ app.put('/api/usuarios', (req, res) => {
         usuario: usuarioSemSenha
     });
 });
-app.delete('/api/usuarios', (req, res) => {
+app.delete('/api/usuarios/:nome', (req, res) => {
     const db = lerDados();
     const nome = req.params.nome;
     const indice = db.usuarios.findIndex(
@@ -391,8 +500,12 @@ app.get('/api/avisos', (req, res) => {
     const db = lerDados();
     res.json(db.avisos); 
 });
-app.listen(PORT, () => {
+app.get('/api/usuarios', mostrarUsuarios);
+
+const port = 3000
+
+app.listen(port, () => {
     console.log(
-        `Servidor do Diário do Aluno rodando em http://localhost:${PORT}`
+        `Servidor do Diário do Aluno rodando em http://localhost:${port}`
     );
 });
