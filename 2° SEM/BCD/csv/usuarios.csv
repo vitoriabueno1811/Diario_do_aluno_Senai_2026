@@ -1,5 +1,5 @@
 
 id,nome,email,senha,tipo,
-1,Breno Frazao Callegari,breno.callegari@portalsesisp.org.br,123,Aluno,
-2,Leticia Aparecida Pinto de Souza,leticia@gamil.com,345,Aluno,
-3,Sara de paula Sousa,Sara@gmail.com,567,Aluno,
+1,Breno Frazao Callegari,breno.callegari@portalsesisp.org.br,Sesi@RM,Aluno,
+2,Leticia Aparecida Pinto de Souza,leticia@gamil.com,Sesi@RM,Aluno,
+3,Sara de paula Sousa,Sara@gmail.com,Sesi@RM,Aluno,

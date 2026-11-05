@@ -69,3 +69,48 @@ ALTER TABLE avisos
 ALTER TABLE horarios_aulas
     ADD CONSTRAINT fk_horarios_turma FOREIGN KEY (id_turma) REFERENCES turmas(id_turma) ON DELETE CASCADE,
     ADD CONSTRAINT fk_horarios_disciplina FOREIGN KEY (id_disciplina) REFERENCES disciplinas(id_disciplina) ON DELETE CASCADE;
+
+INSERT INTO usuarios (nome, email, senha, tipo) VALUES 
+('Ana Beatriz Alvez de Lima', 'anaalves@portalsesisp.org.br', 'Sesi@RM', 'Aluno'),
+('Leticia Aparecida Pinto de Souza','leticiaapsouza@portalsesisp.org.br','Sesi@RM','Aluno'),
+('Sara de paula Sousa','Saradepaula@portalsesisp.org.br','Sesi@RM','Aluno');
+
+INSERT INTO disciplinas (nome, descricao) VALUES 
+('Matemática', 'Estudo de Análise Combinatória e funções.'),
+('Física', 'Fundamentos de óptica e Ondulatória.'),
+('Língua Portuguesa', 'Gramática, Redação e Escolas Literárias.');
+
+INSERT INTO turmas (nome_turma, ano_letivo) VALUES 
+('1º Ano EM - A', 2026),
+('2º Ano EM - B', 2026),
+('3º Ano EM - A', 2026);
+
+INSERT INTO horarios_aulas (id_turma, id_disciplina, dia_da_semana, cronograma) VALUES 
+(1,3,1,'Quarta-feira',07:50 - 08:40),
+(2,2,2,'Sexta-feira',08:40 - 09:30),
+(3,1,3,'Segunda-feira',09:30 - 10:20);
+
+INSERT INTO notas (id_aluno, id_disciplina, nota_boletim, nota_avalia_sesi, nota_rubrica) VALUES 
+(2, 1, 8.50, 7.80, 9.00),
+(2, 2, 7.00, 6.50, 8.00), 
+(3, 1, 9.00, 8.50, 9.50); 
+
+INSERT INTO frequencias (id_aluno, id_disciplina, data_aula) VALUES 
+(2, 1, '2026-11-03'),
+(2, 2, '2026-11-03'),
+(3, 1, '2026-11-03');
+
+INSERT INTO avisos (id_professor, id_turma, titulo, tipo, mensagem, data_mensagem) VALUES 
+(1, 1, 'Simulado Avalia SESI', 'Importante', 'Lembrando que o simulado ocorrerá na próxima sexta-feira. Favor não faltem.', '2026-11-05'),
+(1, 1, 'Entrega de Trabalhos', 'Prazo', 'Prazo final para envio do relatório de Física pelo email educacional.', '2026-11-05'),
+(1, 2, 'Reunião de Alunos', 'Geral', 'Reunião para os pais sobre a feira de ciências.', '2026-11-05');
+
+
+
+
+
+
+
+
+
+
