@@ -31,9 +31,9 @@
 
 ## Funções (2° semestre)
 #### 08/10/2026
-- *Ana Beatriz Alves de Lima :* Back-End, README.md e organização do repositório;
+- *Ana Beatriz Alves de Lima :* Back-End, conexão do Back-End ao Banco de Dados, README.md e organização do repositório;
 - *Breno Frazão Callegari :* Back-End;
-- *Letícia Aparecida Pinto de Souza :* DER;
+- *Letícia Aparecida Pinto de Souza :* DER, Banco de Dados;
 - *Sara de Paula Souza :* Site do projeto;
 - *Vitória Bueno da Silva :* Banco de dados.
 

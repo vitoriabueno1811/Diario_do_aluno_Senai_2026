@@ -1,3 +1,4 @@
 id,id_professor,id_turma,titulo,tipo,mensagem,data_mensagem
-1,1,2,Semana de Provas do 2Bimestre,Importante,As provas serao realizadas entre 02 e 06 de Junho,28 de maio de 2026
-2,2,3,Reuniao de Pais e Mestres,Importante,A reuniao sera no dia 20 de Junho as 19h nas salas de aulas,20 de junho de 2026
+1,1,1,Simulado Avalia SESI,Importante,Lembrando que o simulado ocorrerá na próxima sexta-feira.Favor não faltem.,2026-11-05,
+2,1,1,Entrega de Trabalhos, Prazo, Prazo final para envio do relatório de Física pelo email educacional., 2026-11-05,
+3,1,2,Reunião de Alunos, Geral, Reunião para os pais sobre a feira de ciências., 2026-11-05,
