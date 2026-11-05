@@ -50,7 +50,14 @@
 ``` listar notas salvas no BD ``` 
 ![GET](/2°%20SEM/PBE1/prints/listarNotasBCD.png)
 
-``` listar 
+``` listar horários de aulas salvos no BD ```
+![GET](/2°%20SEM/PBE1/prints/listarHorariosBCD.png)
+
+``` listar turmas salvas no BD ```
+![GET](/2°%20SEM/PBE1/prints/listarTurmasBCD.png)
+
+--  
+
 ``` listar provas marcadas ```
 ![GET](/2°%20SEM/PBE1/prints/listarProvas.png)
 
