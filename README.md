@@ -39,6 +39,18 @@
 
 
 # Prints e testes no Thunder Client (Back-End)
+#### BackEnd conectado ao Banco de Dados
+
+``` listar usuários salvos no BD ```
+![GET](/2°%20SEM/PBE1/prints/listarUsuariosBCD.png)
+
+``` listar frequÊncias salvas no BD ```
+![GET](/2°%20SEM/PBE1/prints/listarFrequenciaBCD.png)
+
+``` listar notas salvas no BD ``` 
+![GET](/2°%20SEM/PBE1/prints/listarNotasBCD.png)
+
+``` listar 
 ``` listar provas marcadas ```
 ![GET](/2°%20SEM/PBE1/prints/listarProvas.png)
 
