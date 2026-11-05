@@ -4,6 +4,16 @@
       "email": "breno.callegari@portalsesisp.org.br",
       "senha": "123",
       "nome": "Breno Frazão Callegari"
+    },
+    {
+      "nome": "Beatriz",
+      "email": "ana@portalsesip.org.br",
+      "senha": "123"
+    },
+    {
+      "nome": "Sara",
+      "email": "sara@portalsesip.org.br",
+      "senha": "123"
     }
   ],
   "desempenho": {
@@ -57,7 +67,7 @@
       "materia": "Português",
       "data": "02/06",
       "horario": "08:30",
-      "conteudo": "Romantismo, interpretação de texto e gramática"
+      "conteudo": "Parnasianismo"
     },
     {
       "id": 3,

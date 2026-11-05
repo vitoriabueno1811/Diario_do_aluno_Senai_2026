@@ -31,14 +31,14 @@
 
 ## Funções (2° semestre)
 #### 08/10/2026
-- *Ana Beatriz Alves de Lima :* Back-End, README.md....
-- *Breno Frazão Callegari :* Back-End
-- *Letícia Aparecida Pinto de Souza :* DER
-- *Sara de Paula Souza :* Site do projeto
-- *Vitória Bueno da Silva :* Banco de dados
+- *Ana Beatriz Alves de Lima :* Back-End, README.md e organização do repositório;
+- *Breno Frazão Callegari :* Back-End;
+- *Letícia Aparecida Pinto de Souza :* DER;
+- *Sara de Paula Souza :* Site do projeto;
+- *Vitória Bueno da Silva :* Banco de dados.
 
 
-# Prints e testes (pendentes) no Thunder Client (Back-End)
+# Prints e testes no Thunder Client (Back-End)
 ``` listar provas marcadas ```
 ![GET](/2°%20SEM/PBE1/prints/listarProvas.png)
 
@@ -51,11 +51,50 @@
 ``` deletar provas ```
 ![DEL](/2°%20SEM/PBE1/prints/DELprova.png)
 
+``` mudar provas ```
+![PUT](/2°%20SEM/PBE1/prints/mudarProvasPUT.png)
+
 ```listar avisos ```
 ![GET](/2°%20SEM/PBE1/prints/listarAvisos.png)
 
 ```listar desempenho geral do aluno``` 
 ![GET](/2°%20SEM/PBE1/prints/listarDesempenho.png)
+
+``` listar usuários ```
+![GET](/2°%20SEM/PBE1/prints/listarUsuarios.png)
+
+``` postar novo usuário ```
+![POST](/2°%20SEM/PBE1/prints/postarNovoUsuario.png)
+
+``` postar usuário de forma ilegível ```
+![POST](/2°%20SEM/PBE1/prints/postarUsuarioErrado.png)
+
+``` postar mesmo usuário duas vezes ```
+![POST](/2°%20SEM/PBE1/prints/postarMesmoUsuario.png)
+
+``` deletar usuários ```
+![DEL](/2°%20SEM/PBE1/prints/DELusuario.png)
+
+``` listar todos usuários ``` 
+![GET](/2°%20SEM/PBE1/prints/listarTodosUsuarios.png)
+
+``` listar matérias ``` 
+![GET](/2°%20SEM/PBE1/prints/listarMaterias.png)
+
+``` postar nova matéria ```
+![POST](/2°%20SEM/PBE1/prints/postarMateriaNova.png)
+
+``` postar matéria já cadastrada ```
+![POST](/2°%20SEM/PBE1/prints/postarMateriacadastrda.png)
+
+``` put matéria ```
+![PUT](/2°%20SEM/PBE1/prints/mudarMateriaPUT.png)
+
+``` deletar matérias ```
+![DEL](/2°%20SEM/PBE1/prints/deletarMateria.png)
+
+
+
 
 # Código SQL (Banco de Dados) 
 
