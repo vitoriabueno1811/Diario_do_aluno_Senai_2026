@@ -6,6 +6,9 @@
 ## Site atualizado (apresentação 1° semestre)
 [DiárioDoAlunoSESI](https://versed-sesi-connect-hub.base44.app/)  
 
+## Site atualizado HTML
+[DiárioDoAlunoSESI]() 
+
 ## Tecnologias utilizadas 1/2° semestre
 |Tecnologia|Descrição|
 |-|-|
