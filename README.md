@@ -3,7 +3,7 @@
 ## Site teste no Canva
 [DiárioDoAlunoSESI](https://beatrizalvesportfolio.my.canva.site/di-rio-do-alunosesi)
 
-## Site atualizado
+## Site atualizado (apresentação 1° semestre)
 [DiárioDoAlunoSESI](https://versed-sesi-connect-hub.base44.app/)  
 
 ## Tecnologias utilizadas 1/2° semestre
